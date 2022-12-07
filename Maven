@@ -1,1 +1,35 @@
+Steps Of Maven Project:
+-------------------------------------------------------------------------------------
+NOTE: In VM open chrome browser and the open lex. download the project.
+In Microsoft edge you are not able to download the project.
+
+Download the project->right click->extract all
+
+1. How to import maven project into eclipse?
+
+* Open eclipse->File->import->Maven->Existing maven projects->browse->choose your extracted project->select folder->click on ok
+-------------------------------------------------------------------------------------
+2. If you are getting error after importing project then follow the below steps.
+
+a. Make sure settings.xml file is there inside .m2 folder or not. 
+
+b. If settings file is not there in .m2 folder then do the below steps:
+
+  * C Drive->Java Artifacts->Maven->copy the settings file.
+
+  * go to C Drive->users->your username folder->.m2 folder->paste the settings file.
+
+NOTE: If .m2 folder is not there you will get it after importing project as maven  project into eclipse.
+  
+C. Steps to update maven project:
+
+  * In eclipse->right click on project->maven->update project->check the box of force update of Snapshots/Releases->click on ok
+
+  * If still error exists then just close the eclipse and open it again error will resolve
+
+
+
+
+ 
+
 
